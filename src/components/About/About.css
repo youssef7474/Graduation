@@ -1,0 +1,96 @@
+
+.special-heading {
+    color: gray;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 800;
+    margin: 0;
+  }
+  .special-heading + p {
+    margin: -30px 0 0;
+    font-size: 20px;
+    text-align: center;
+    color: #797979;
+  }
+  @media (max-width: 767px) {
+    .special-heading {
+      font-size: 60px;
+    }
+    .special-heading + p {
+      margin-top: -20px;
+    }
+  }
+.about {
+    padding-top: 60px;
+    padding-bottom: calc(60px + 60px);
+  }
+  .about .about-content {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  @media (max-width: 991px) {
+    .about .about-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  .about .about-content .image {
+    position: relative;
+    width: 300px;
+    height: 300px;
+  }
+  @media (max-width: 991px) {
+    .about .about-content .image {
+      margin: 0 auto 60px;
+    }
+  }
+  .about .about-content .image::before {
+    content: "";
+    position: absolute;
+    background-color: #2c4755;
+    width: 100px;
+    height: calc(100% + 80px);
+    top: -40px;
+    left: -20px;
+    z-index: -1;
+  }
+  .about .about-content .image::after {
+    top: -40px;
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 360px;
+    border-left: 80px solid #0075ff;
+    border-bottom: 80px solid #0075ff;
+    z-index: -1;
+    right: -60px;
+  }
+  @media (max-width: 991px) {
+    .about .about-content .image::before,
+    .about .about-content .image::after {
+      display: none;
+    }
+  }
+  .about .about-content .image img {
+    height: 300px;
+    max-width: 100%;
+  }
+  .about .about-content .text {
+    flex-basis: calc(100% - 500px);
+  }
+  .about .about-content .text p:first-of-type {
+    font-weight: bold;
+    line-height: 2;
+    margin-bottom: 50px;
+  }
+  .about .about-content .text hr {
+    width: 50%;
+    display: inline-block;
+    border-color: #0075ff;
+  }
+  .about .about-content .text p:last-of-type {
+    line-height: 2;
+    color: #777;
+  }

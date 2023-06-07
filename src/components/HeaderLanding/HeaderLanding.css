@@ -1,0 +1,13 @@
+.offcanvas-body .navbar-nav .nav-link a 
+{
+   color: black;
+}
+.offcanvas-body .navbar-nav .nav-link a.active 
+{
+    color: var(--blue-color);
+}
+.offcanvas-body .navbar-nav .nav-link svg
+{
+    color: var(--blue-color);
+   
+}

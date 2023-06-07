@@ -1,0 +1,46 @@
+.login-page .contanier
+{
+    min-height: 100vh;
+}
+.login-page .contanier
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.login-page .contanier form input[type="email"],
+.login-page .contanier form input[type="password"]
+{
+    display: block;
+    margin: 30px auto 30px auto ;
+    width: 300px;
+    padding: 10px;
+    border-radius: 6px;
+    border-color: var(--blue-color);
+}
+.login-page .contanier form input[type="submit"]
+{
+    margin: 10px auto 30px auto ;
+    padding:8px 10px 8px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    border-color: var(--blue-color);
+    display: block;
+}
+.login-page .contanier .title
+{
+    position: absolute;
+    top: 20%;
+    color: var(--blue-color);
+}
+.login-page .contanier form .pass a
+{
+    font-size: 13px;
+    position: absolute;
+    color: var(--black-color);
+    font-weight: bold;
+}
