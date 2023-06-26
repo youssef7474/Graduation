@@ -68,3 +68,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This is a web-based admin dashboard for a patient monitoring system. The admin has full control over the system, with the ability to add, edit, view, and delete any type of user. The project is built using React.js, React Redux, React Router, Bootstrap, and Firebase as the backend and database. All designs are user-friendly and can be accessed on any device or screen.
+
+The website's landing page serves as the home page for the admin. On the right-hand side, there is a navigation bar that allows access to other pages, including the admin login page. Only the admin can log in to the website using the email address (admin5@test.com and password 123456). Once logged in, the main dashboard page displays statistics on the system and its current state.
